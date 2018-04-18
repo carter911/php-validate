@@ -1,4 +1,4 @@
-##thinkphp5-validate
+## thinkphp5-validate
 ## 使用tp5过程中发现validate还不错故将他剥离开来 
 
 `注意 由于只是用到了validate 代码里面有些小调整 去掉了多语言功能`
