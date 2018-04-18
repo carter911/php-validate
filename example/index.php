@@ -8,9 +8,8 @@
 include_once "../vendor/autoload.php";
 include_once "./Validate/UserValidate.php";
 $user = new \Validate\UserValidate();
-//$param['name'] = '';
-//$param['password'] = '';
 $param = "";
-$res = $user->scene('ret')->check( $param );
-var_dump($user->getError());
-var_dump($res);
+if(!$user->scene('ret')->check( $param ))
+{
+    $user->getError();
+}
