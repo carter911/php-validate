@@ -1,5 +1,5 @@
 {
-    "name": "zhongwu/think-validate",
+    "name": "sgb/think-validate",
     "description": "分离thinkphp5的validate类",
     "require-dev": {
         "monolog/monolog": "^1.23"
