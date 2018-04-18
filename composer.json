@@ -1,0 +1,19 @@
+{
+    "name": "zhongwu/think-validate",
+    "description": "分离thinkphp5的validate类",
+    "require-dev": {
+        "monolog/monolog": "^1.23"
+    },
+    "authors": [
+        {
+            "name": "carter911",
+            "email": "729921697@qq.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "think5\\": "src"
+        }
+    }
+}
