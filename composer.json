@@ -1,6 +1,6 @@
 {
     "name": "sgb/think-validate",
-    "version":"1.1",
+    "version":"1.*",
     "description": "分离thinkphp5的validate类",
     "require-dev": {
         "monolog/monolog": "^1.23"
